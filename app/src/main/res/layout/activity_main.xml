@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mamunImageViewId"
+        android:src="@drawable/mamun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/marufImageViewId"
+        android:src="@drawable/maruf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/minarImageViewId"
+        android:src="@drawable/minar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <!--
+
+           <ImageView
+               android:visibility="gone"
+               android:id="@+id/muradImageViewId"
+               android:src="@drawable/murad"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:scaleType="fitXY"/>
+
+        -->
+
+
+    <!--
+
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/noyonImageViewId"
+            android:src="@drawable/noyon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/raselImageViewId"
+            android:src="@drawable/rasel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ronyImageViewId"
+            android:src="@drawable/rony"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/saikatImageViewId"
+            android:src="@drawable/saikat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/shubrotoImageViewId"
+            android:src="@drawable/shubroto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/sumonImageViewId"
+            android:src="@drawable/sumon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/tipuImageViewId"
+            android:src="@drawable/tipu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+
+          -->
+
+
+</FrameLayout>
